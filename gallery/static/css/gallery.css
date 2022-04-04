@@ -1,0 +1,20 @@
+body {
+  background-color: #ffff;
+}
+header{
+  background-color: #fafafafa;
+  border-bottom: 1.5px solid #cccc;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.jiho{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding: 27px 20px;
+  flex-wrap: wrap;
+}
