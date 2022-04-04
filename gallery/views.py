@@ -1,6 +1,3 @@
-from multiprocessing import context
-from re import template
-from winreg import QueryInfoKey
 from django.shortcuts import render
 from .models import Post
 from django.views.generic import(
