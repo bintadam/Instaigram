@@ -10,11 +10,25 @@ header{
   width: 100%;
 }
 
-.jiho{
+.navigation{
   display: flex;
   flex-direction: row;
   text-align: center;
   justify-content: center;
   padding: 27px 20px;
   flex-wrap: wrap;
+}
+
+.navigation a{
+  color: #111;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 0:
+}
+.logo a{
+  font-size: 25px;
+  padding-left:10px ;
 }

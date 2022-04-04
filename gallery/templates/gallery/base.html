@@ -1,4 +1,4 @@
-{% {%load staticfiles %} %}
+{%load staticfiles %} 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,20 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="stylesheet" href="{% static 'css/gallery.csss' %}">
+  <link rel="stylesheet" href="{% static 'css/gallery.css' %}">
   <title></title>
 </head>
 <body>
    <header>
-     <div class="jiho">
+     <div class="navigation">
        <div class="logo">
-         <a class="" href="/"><i class="fab fa-instagram"></i></a>
+         <a class="" href="/"><i class="fa fa-instagram"></i></a>
          <a class="" href="/"></a>
-         <a href="/">Instagram</a>
+         <a class="v1" href="/">Insta</a>
        </div>
        <div class="search-bar">
          <input type="text" placeholder="search">
-         <a class="search" href=""><i class="fas fa-search"></i></a>
+         <a class="search" href=""><i class="fa-solid  fa-search"></i></a>
        </div>
        <div class="icons">
          <a class="profile" href=""><i class="fa-solid fa-user"></i></a>
@@ -28,5 +28,9 @@
         </div>
      </div>
    </header>
+   <div class="container">
+     {% block content %} 
+     {% endblock %}
+   </div>
 </body>
 </html>
