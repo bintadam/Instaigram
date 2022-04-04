@@ -26,9 +26,13 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  width: 0:
+  width: 0;
 }
 .logo a{
   font-size: 25px;
   padding-left:10px ;
+}
+.v1{
+  border-left: 1.5px solid #1111;
+  height : 38px ;
 }
