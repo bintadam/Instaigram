@@ -63,3 +63,11 @@ header{
   font-size: 25px;
   padding-left: 15px;
 }
+.container{
+  background-color: #fafafa;
+  padding-top: 50px;
+  position: absolute;
+  width : 100% ;
+  top: 80px;
+  left: 0px;
+}
