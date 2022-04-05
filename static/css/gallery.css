@@ -1,0 +1,158 @@
+body {
+  background-color: #ffff;
+}
+header{
+  background-color: #fafafafa;
+  border-bottom: 1.5px solid #CCC;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding: 26px 20px;
+  flex-wrap: wrap;
+}
+
+.navigation a{
+  color: #111;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 30;
+}
+.logo a{
+  font-size: 25px;
+  padding-left:10px ;
+}
+.v1{
+  border-left: 1.5px solid #1111;
+  height : 30px ;
+  margin-left: 20px;
+}
+.contact-icons{
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
+  
+}
+.contact-icons a {
+  padding-left: 30px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.search-bar{
+  display: flex;
+  width: 30% ;
+  justify-content: center;
+  border-radius: 3px;
+  color: #9999;
+  cursor: text;
+  text-align: center;
+  position: absolute;
+}
+
+.search-bar a {
+  font-size: 25px;
+  padding-left: 15px;
+}
+.container{
+  background-color: #fafafa;
+  padding-top: 50px;
+  position: absolute;
+  width : 100% ;
+  top: 80px;
+  left: 0px;
+}
+.card{
+  background-color: #fff;
+  margin: 0 auto;
+  width: 614px;
+  height: auto;
+  border: -8px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+.card-header{
+  padding: 10px;
+}
+.card-header a{
+  text-decoration: none;
+  color: #000;
+}
+.gallery-image{
+  display: inline-block;
+  background-color: grey;
+  height: 30px;
+  width: 30px;
+  padding : 0 ;
+  margin: 0;
+  border: 0 solid #000;
+  border-radius: 50% ;
+}
+.post{
+  display: inline-block;
+  padding-left: 14px;
+}
+.post-name{
+  font-size: 14px;
+  color: #111;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+.post-location{
+  font-size: 12px;
+  color: gray;
+  padding: 0;
+  margin: 0;
+}
+.post-options{
+  font-size: 15px;
+  float: right;
+  display: inline-block;
+  margin: 4px;
+  padding: 5px;
+  color: #ccc;
+}
+.post-image{
+  width: 100%;
+  height: 614px;
+}
+.connections{
+  display: inline-block;
+  width: 100%;
+  margin: 4px 0px 0px;
+  padding: 0px 16px;
+}
+.connections a {
+  padding: 7px;
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.007);
+  font-weight: 600;
+}
+.fa-bookmark{
+  float: right;
+  margin-right: 27px;
+}
+.likes a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  margin: 0px 0px 8px;
+  padding: 0px 21px;
+}
+.caption{
+  display: inline-block;
+  width: 100%;
+  padding: 0px 16px;
+}
