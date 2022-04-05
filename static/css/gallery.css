@@ -27,6 +27,7 @@ header{
   flex-direction: row;
   justify-content: flex-start;
   width: 30;
+  text-decoration: none;
 }
 .logo a{
   font-size: 25px;
